@@ -3,27 +3,67 @@
 <head>
 <meta charset="utf-8">
 <title>Inline Elements</title>
+<style>
+@import url(inline.css);
+.Inline{
+    color: #666699;
+}
+.Element{
+    color: #FF99FF;
+} 
+.make {
+    color: #00F1D3;
+}
+.text {
+    color: #663300;
+}
+.look {
+    color: #FFF8CD;
+}
+.great {
+    color: #0000FF;
+}
+q {
+    color: #00FFDD;
+}
+</style>
 </head>
 <body>
-<!-- content starts below here -->
-
 <h1>Inline Elements</h1>
+<section>
+<p> Inline Elements are elements that <strong> changed the way </strong> text
+looks inside of <b> block elements </b>. It can change the way <em> your text
+looks/</em> by doing a varitey of <i> different things. </i> </p>
 
-<p>
-Inline Elements are elements that <strong> changed the way </strong> text looks inside of <b> block elements </b>. It can change the way <em> your text looks/</em> by doing a varitey of <i> different things. </i> 
-</p>
-
-<p>
-Now I will give some examples of this. You can <q> put text in quotations </q> This can be helpful when writting a book report. You can also change the way the text looks byt making it look like <code> source code </code> or you can make it look like <kbd> this which is useful for user entered data. </kbd> 
+<p style="text-decoration: underline overline;">
+Now I will give some examples of this. You can <q> put text in quotations </q>
+This can be helpful when writting a book report. You can also change the way
+the text looks byt making it look like <code> source code </code> or you can
+make it look like <kbd> this which is useful for user entered data. </kbd> 
 </p>
 
 <p>
 You can also get <sup> superscript </sup> or <sub> subscript </sub>
 </p>
 
-<p>
-<b>Inline</b> <em>Elements</em> <b>make</b> <em>text</em> <b>look</b> <em>great!</em>
 
-<!-- content ends above here -->
+<p>
+	<span class="Inline">Inline</span> 
+	<span class="Element">Elements</span> 
+	<span class="make">make</span>
+	<span class="text">text</span>	
+	<span class="look">look</span>
+	<span class="great">great!</span>
+</p>
+</section>
+
 </body>
+
+<footer>
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong> It Validates! </a> &nbsp;
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<strong> CSS </strong> It Validates! </a>
+</footer>
+
 </html>
