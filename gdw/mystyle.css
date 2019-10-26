@@ -1,22 +1,45 @@
 body {
-    margin: 40px;
-    padding: 40px;
-    background-color: #FFF8DC;
-    border: 1px solid #808080;
+     margin: 0;
+     background-color: #9FD4CF;
+     background-image: url(oranges.jpg);
+     background-repeat: repeat;
+     height: 10px;
+     background-posistion: center;
+     width: 100%;
+}
+
+
+#heading {
+    background-color: #9FD4CF;
+    width: cover;
+    height: cover;
 }
 
 h1 {
     text-align: center;
-    color: #FF8C00;
+    color: #18468F;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+    font-family: Garamond;
+}
+h4 {
+    text-align: center;
+    color: #18468F;
+    font-family: Garamond;
 }
 
+
 h2 {
-    color: #8B4513;
+    color: #18468F;
+    text-decoration-line: underline;
+    font-family: Garamond;
+
 }
 
 a, a:visited {
-    color: #000000;
-    text-decoration: none;
+    color: #660066;
+    text-decoration: underline;
 }
 
 footer {
