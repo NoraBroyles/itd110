@@ -4,7 +4,6 @@ body {
      background-image: url(oranges.jpg);
      background-repeat: repeat;
      height: 10px;
-     background-posistion: center;
      width: 100%;
 }
 
@@ -63,8 +62,8 @@ li.dropdown {
 
 #heading {
     background-color: #9FD4CF;
-    width: cover;
-    height: cover;
+    width: fill;
+    height: fill;
 }
 
 h1 {
