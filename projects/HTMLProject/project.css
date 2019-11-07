@@ -1,0 +1,28 @@
+body {
+     margin: 40px;
+     padding: 40px;
+     background-color: #333399;
+     background-image: url(homebackground.jpg);
+}
+h1 {
+    text-align: center;
+    color: #AE99F2;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    color: #BBAAF2;
+}
+h2, h3 {
+    text-align: left;
+    color: #AE99F2;
+}
+ul {
+    list-style-type: circle;
+}
+a:link {
+    color: #99CCFF;
+}
+a:visited {
+    color: #A287FA;
+}
