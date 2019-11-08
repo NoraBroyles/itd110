@@ -1,28 +1,94 @@
+#MenuBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.MenuItems {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
 body {
-     margin: 40px;
-     padding: 40px;
      background-color: #333399;
-     background-image: url(homebackground.jpg);
+     background-image: url(backgroundpic.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 h1 {
     text-align: center;
-    color: #AE99F2;
+    color: #e33066;
     font-weight: bold;
 }
-p {
+.indexpagetext {
     text-align: center;
-    color: #BBAAF2;
+}
+p {
+    text-align: left;
+    font-family: Verdana;
+    font-weight: 600;
+    color: #FFFFFF;
 }
 h2, h3 {
     text-align: left;
-    color: #AE99F2;
-}
-ul {
-    list-style-type: circle;
+    color: #e33066;
 }
 a:link {
-    color: #99CCFF;
+    color: #A287FA;
 }
 a:visited {
     color: #A287FA;
+}
+.StringList {
+    font-size: 20px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+dl {
+   color: #FFFFFF;
+}
+ol {
+   color: #FFFFFF;
+}
+footer {
+   color: #A287FA;
+   text-align: center;
+   bottom: 10px;
+}
+table {
+    border-collapse: collapse;
+    display: block;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+th {
+    height: 30px;
+    vertical-align: left;
+    color: #FFFFFF;
+    width: 320px;
+}
+td {
+   height: 25px;
+   color: #FFFFFF;
 }

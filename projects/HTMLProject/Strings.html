@@ -4,21 +4,28 @@
 <meta charset="utf-8">
 <title>Strings</title>
 <style>
-@import url(Strings.css);
+@import url(project.css);
 </style>
 </head>
 <body>
 <header>
+<ul id= "MenuBar">
+  <li class= "MenuItems"><a href="index.html">Home</a>
+  <li class= "MenuItems"><a href="IntandDoubles.html">Integers and Doubles</a>
+  <li class= "MenuItems"><a href="Strings.html">Strings</a>
+  <li class= "MenuItems"><a href="Boolean.html">Boolean Operators</a>
+  <li class= "MenuItems"><a href="Conditions.html">Conditional Statements</a>
+  <li class= "MenuItems"><a href="Loops.html">Loops</a></li>
+ </ul>
 <h1>Strings</h1>
 </header>
 <div>
 <h2>What is a String?</h2>
 <p>
-As you probably have guessed a string is another data type that is used in programming,
-other data types for example are, integers and floating point unit, but as we have already learned, those two data types are used to represent numbers. Strings on the other hand
-are used to represent text such as words. It is comprised of a set of characters but it 
-also can contain spaces and numbers. You should also make sure that your string is also 
-always enclosed in quotation marks. 
+As you probably have guessed a string is another data type that is used in
+programming,other data types for example are, integers and floating point unit,
+but as we have already learned, those two data types are used to represent
+numbers. Strings on the other hand are used to represent text such as words. It is comprised of a set of characters but it also can contain spaces and numbers. You should also make sure that your string is also always enclosed in quotation marks. 
 </p>
 </div>
 
@@ -28,14 +35,14 @@ always enclosed in quotation marks.
 There is a multitude of different methods we can use to manipulate the string. Here are a
 few of them&colon;
 </p>
-<ol type="I">
-  <li>char charAt&lpar;int index&rpar;
-  <li>String toUpperCase&lpar;&rpar;
-  <li>int compareTo&lpar;String string&rpar;
-  <li>int indexOf&lpar;int ch&rpar;
-  <li>String substring&lpar;int beginIndex&rpar; 
-  <li>boolean equals&lpar;Object obj&rpar;
-  <li>String.length&lpar;&rpar;</li>
+<ol type="I" class= "StringList">
+  <li><code>char charAt&lpar;int index&rpar;</code>
+  <li><code>String toUpperCase&lpar;&rpar;</code>
+  <li><code>int compareTo&lpar;String string&rpar;</code>
+  <li><code>int indexOf&lpar;int ch&rpar;</code>
+  <li><code>String substring&lpar;int beginIndex&rpar;</code> 
+  <li><code>boolean equals&lpar;Object obj&rpar;</code>
+  <li><code>String.length&lpar;&rpar;</li></code>
 </ol>
 <p>
 Make sure that before using these methods you initialize you string, if you forget to
