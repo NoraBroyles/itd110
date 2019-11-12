@@ -84,7 +84,6 @@ table, th, td {
 }
 th {
     height: 30px;
-    vertical-align: left;
     color: #FFFFFF;
     width: 320px;
 }
