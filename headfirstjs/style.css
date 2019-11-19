@@ -1,0 +1,45 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+ body {
+    background-color: #b96ec2;
+    border-style: groove;
+    border-color: purple;
+    border-width: 45px;
+    height: 100%;
+    margin: 0px;
+}
+section {
+    background-color: #FFF8DC;
+    padding: 20px;
+}   
+h1, footer {
+    text-align: center;
+}
+h1 {
+    font-size: 55px;
+}
+ul {
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+footer {
+    margin-top: 20px;
+    bottom: 0px;
+    position: absolute;
+    width: 90%;
+}
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}   
+    
+b {
+    color: #800000;
+}   
+strong {
+    color: #9019bf;
+}
