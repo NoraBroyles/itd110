@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Phrase-o-matic</title>
+  <meta charset="utf-8">
+</head>
+<body>
+<h1>Phrase-o-matic</h1>
+<p>This program creates random phrases and makes them into alerts</p>
+  <script>
+    function makePhrase() {
+	var words1 = ["24/7", "muli-tier", "30,000 foot", "B-to-B", "win-win"];
+	var words2 = ["empowered", "value-added", "oriented", "focused", 
+			"aligned"];
+	var words3 = ["process", "solution", "tipping-point", "strategy", 
+			"vision"];
+	
+	var rand1 = Math.floor(Math.random() * words1.length);
+	var rand2 = Math.floor(Math.random() * words2.length);
+	var rand3 = Math.floor(Math.random() * words3.length);
+
+	var phrase = words1[rand1] + " " + words2[rand2] + " " + words3[rand3];
+	alert(phrase);
+    }
+    makePhrase();
+  </script>
+<footer style="text-align: center;">
+<a href="http://validator.w3.org/check?uri=https://norabroyles.github.io/itd110/headfirstjs/Phrase-o-matic.html">
+<strong> HTML </strong> Valid! </a>|
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=https://norabroyles.github.io/itd110/headfirstjs/Phrase-o-matic.html?profile=css3">
+<strong> CSS </strong> Valid! </a>
+</footer>
+
+</body>
+</html>
+       
