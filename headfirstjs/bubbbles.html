@@ -1,26 +1,73 @@
-<!DOCTYPE html>
+<!DOCTYPE ihtml>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Bubble Solutions Exercise</title>
 </head>
 <body>
-<h1>Buuble Solutions Exercise</h1>
+<h1>Bubble Solutions Exercise</h1>
 <script>
 var scores = [60, 50, 60, 58, 54, 58, 58, 50, 52, 54, 48, 69,
 	      34, 55, 51, 52, 44, 51, 69, 64, 66, 55, 52, 61,
-	      46, 31, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44,];
-var output;
+	      46, 31, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44];
 
-var i = 0;
+var costs= [ .25, .27, .25, .25, .25, .25,
+	     .33, .31, .25, .29, .27, .22,
+	     .31, .25, .25, .33, .21, .25,
+   	     .25, .25, .28, .25, .24, .22,
+      	     .20, .25, .30, .25, .24, .25,
+	     .25, .25, .27, .25, .26, .29];
 
-while (i < scores.length) {
-  output = "Bubble solution #" + i + " score: " + scores[i];
-  console.log(output);
-  i = i + 1;
+function getMostCostEffectiveSolution(scores, costs, highScore) {
+    var cost = 100;
+    var index;
+    for ( var i = 0; i < scores.length; i++) { 
+    if (scores[i] == highScore) {
+	if (cost > costs[i]) {
+	    index = i;
+	    cost = costs[i];
+	}
+    } 
+  }
+  return  index;
 }
+
+
+function printAndGetHighScores(scores) {
+  var highScore = 0;
+  var output;
+  for (var i = 0; i < scores.length; i++) {
+    output = "Bubble solution #" + i + " score: " + scores[i];
+    console.log(output);
+    if (scores[i] > highScore) {
+	highScore = scores[i]
+    }
+  }
+  return highScore;
+}
+
+function getBestResults(scores, highscores) {
+    var bestSolutions = []; 
+    for (var i = 0; i < scores.length; i++) {
+	if (scores[i] == highScore) {
+	   bestSolutions.push(i);
+	}
+    }
+    return bestSolutions;
+} 
+
+var highScore = printAndGetHighScores(scores);
+console.log("Bubbles test: " + scores.length);
+console.log("Highest bubbles score: " + highScore);
+
+var bestSolutions = getBestResults(scores, highScore);
+console.log("Solutions with the highest score: " + bestSolutions);
+
+var mostCostEffective = getMostCostEffectiveSolution(scores, costs, highScore);
+console.log("Bubble Solution #" + mostCostEffective + " is the most cost effective");
+
 </script>
-<footer style="text-align: center;">
+<footer style="text-ali   gn: center;">
 <a href="http://validator.w3.org/check?uri=https://norabroyles.github.io/itd110/headfirstjs/bubbles.html">
 <strong> HTML </strong> Valid! </a>|
 <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://norabroyles.github.io/itd110/headfirstjs/bubbles.html?profile=css3">
