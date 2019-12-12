@@ -1,0 +1,33 @@
+
+body {
+	background-color: #5C4F51;
+}
+
+h1 {
+	color: #746E7B;
+	font-family: Lucida Console;
+	font-size: 40px;
+	text-align: center;
+}
+
+h2 {
+        color: #746E7B;
+        font-family: Lucida Console;
+        font-size: 30px;
+        text-align: left;
+}
+li a, p {
+	color: #B88F92;
+        font-size: 20px;
+	text-align: left;
+}
+
+footer  { 
+	color: #272529;
+	font-size: 15px;
+	text-align: center;
+}
+
+footer a {
+	color: #272529;
+}
