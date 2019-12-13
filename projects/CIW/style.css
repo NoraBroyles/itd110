@@ -26,8 +26,23 @@ footer  {
 	color: #272529;
 	font-size: 15px;
 	text-align: center;
+ 	padding: 10px;
 }
 
 footer a {
 	color: #272529;
 }
+dt {
+	color: #B88F92;
+        font-family: Lucida Console;
+        font-size: 30px;
+        text-align: left;
+}
+dd {
+        color: #FFFFFF;
+        font-family: Lucida Console;
+        font-size: 20px;
+        text-align: left;
+        padding: 10px;
+}
+
