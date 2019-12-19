@@ -1,7 +1,7 @@
 
 body {
 	background-color: #F79489;
-	margin: 20px;
+	margin: 40px;
 	border: 5px dotted;
 	border-color: #F9F1F0;
 }
@@ -11,6 +11,11 @@ h1 {
 	font-family: Lucida Console;
 	font-size: 40px;
 	text-align: center;
+	text-decoration: underline wavy #F8AFA6;
+}
+
+div {
+	padding: 20px;
 }
 
 h2 {
