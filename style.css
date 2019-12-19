@@ -1,0 +1,52 @@
+
+body {
+	background-color: #F79489;
+	margin: 20px;
+	border: 5px dotted;
+	border-color: #F9F1F0;
+}
+
+h1 {
+	color: #F8AFA6;
+	font-family: Lucida Console;
+	font-size: 40px;
+	text-align: center;
+}
+
+h2 {
+        color: #F8AFA6;
+        font-family: Lucida Console;
+        font-size: 30px;
+	padding: 5px;
+        text-align: left;
+}
+li a, p {
+	color: #FADCD9;
+        font-size: 20px;
+	text-align: left;
+}
+
+footer  { 
+	color: #499167;
+	font-size: 15px;
+	text-align: center;
+ 	padding: 10px;
+}
+
+footer a {
+	color: #FADCD9;
+}
+dt {
+	color: #B88F92;
+        font-family: Lucida Console;
+        font-size: 30px;
+        text-align: left;
+}
+dd {
+        color: #FFFFFF;
+        font-family: Lucida Console;
+        font-size: 20px;
+        text-align: left;
+        padding: 10px;
+}
+
