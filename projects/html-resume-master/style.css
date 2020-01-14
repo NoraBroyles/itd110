@@ -10,11 +10,11 @@
 :root{
   --page-width: 8.5in;
   --page-height: 11in;
-  --main-width: 6.5in;
+  --main-width: 6.4in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
-  sidebar-horizontal-padding: 0.2in;
+  --sidebar-horizontal-padding: 0.2in;
 
   /* XXX: using px for very good precision control */
   --decorator-outer-offset-top: 10px;
@@ -52,7 +52,7 @@ li{
 #main{
   float: left;
   width: var(--main-width);
-  padding: 0.25in 0.25 0 0.25in;
+  padding: 0.25in 0.25in 0 0.25in;
   font-size: 7pt;
 }
 
