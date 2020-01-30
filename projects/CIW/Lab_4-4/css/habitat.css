@@ -35,7 +35,7 @@ footer {
   padding: 0;
 }
 
-h1 {
+h2 {
   text-shadow: 3px 3px 3px #888888;
   margin-top: 5px; 
   margin-bottom: 0px; 
@@ -57,7 +57,7 @@ nav {
   opacity: 0.8;
 }
 
-section {
+main {
   background-image: url("../media/globe.png"); 
   background-repeat: no-repeat;
   background-size: contain;
